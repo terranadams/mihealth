@@ -9,10 +9,18 @@
 
 .mihealth {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
 }
 
+.mi {
+    color: red;
+}
+
+.health {
+    color: green;
+}
 .grid-item-1 {
-    padding-left: 100px;
+    padding-left: 70px;
 }
 .grid-item-2 {
     padding-right: 100px;

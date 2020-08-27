@@ -32,6 +32,7 @@
     grid-template-columns: repeat(4, 1fr);
     height: 450px;
     margin-top: 20px;
+    position: fixed;
 }
 
 .grid-thing-1 {
@@ -39,6 +40,7 @@
     padding-top: 35px;
     min-width: 250px;
     max-width: 250px;
+    position: fixed;
 }
 
 .image1 {
@@ -46,6 +48,7 @@
     max-height: 100%;
     min-width: 100%;
     min-height: 100%;
+    margin-left: 300px;
 }
 
 .image2 {
@@ -53,18 +56,29 @@
     max-height: 100%;
     min-width: 100%;
     min-height: 100%;
+    margin-left: 300px;
 }
 .image3 {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
     height: 378px;
+    margin-left: 300px;
 }
 
 .images {
     height: 378px;
     padding: 30px 5px 30px 5px;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 310px;
+    max-width: 300px;    
 }
 
+.fresh {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    top: 325px;
+    left: 545px;
+    padding: 10px 10px 10px 10px;
+  }

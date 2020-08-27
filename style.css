@@ -4,16 +4,20 @@
 }
 
 .grid-item{
-    padding-top: 50px;
+    position: absolute;
+    top: 50px
 }
 
 .mihealth {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    position: absolute;
+    top: 40px;
 }
 
 .mi {
     color: red;
+    left: 40px;
 }
 
 .health {
@@ -23,7 +27,16 @@
     padding-left: 70px;
 }
 .grid-item-2 {
-    padding-right: 100px;
+    left: 800px;
+}
+.grid-item-3 {
+    left: 910px;
+}
+.grid-item-4 {
+    left: 1000px;
+}
+.grid-item-5 {
+    left: 1100px;
 }
 
 .grid-container-2 {
@@ -31,7 +44,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 450px;
-    margin-top: 20px;
+    margin-top: 90px;
     position: fixed;
 }
 

@@ -40,7 +40,7 @@
 }
 
 .grid-container-2 {
-    background-color: #DCD5D5;
+    background-image: url('watercolor.png');
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 450px;
